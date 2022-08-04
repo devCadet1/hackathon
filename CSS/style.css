@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    margin-top: 1%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+}
+
+.nav-end{
+    display: flex;
+    list-style-type: none;
+
+}
+
+.end-items{
+    margin-right: 25% ;
+}
+
+.search-bar{
+    width: 75%;
+    margin-left: 0px;
+    /* margin-top: 10px; */
+    border-radius: 5px;
+    border: 1px solid #224B91;
+    
+}
+
+
+::placeholder{
+    color: grey;
+    font-size: 15px;
+    color: #224B91;
+    font-weight: 400;
+    padding-left: 50px;
+    letter-spacing: 2px;
+    
+    
+}
+
+
+.nav-end h4{
+    display: flex;
+    margin-top: 15%;
+    gap: 1px;
+    color: #224B91;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+
+.list-item{
+    text-decoration: none;    
+    color: #224B91;
+    font-family: 'poppins';
+    font-weight: 500;
+
+}
+
+.main-list{
+    display: flex;
+    
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.list-item-with-arrow-symbol{
+    display: flex;
+    gap: 5px;
+}
+
+.banner{
+    margin-top:25px ;
+}
+
+.courses-list{
+    display: none;
+    position: absolute;
+    box-shadow: 10px 8px 10px rgba(10,1,0,0.2);
+    background-color: #fff;
+    
+    
+}
+
+#drop-down-one:hover .courses-list{
+    display: block;
+}
+
+.dropdown-item:hover{
+    cursor: pointer;
+}
+
+
+.courses-list ul{
+
+    color: #1f1f1f;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+.courses-list ul:hover{
+    background-color: #cac6c6;
+}
+
+
+.company-dropdown{
+ 
+    display: none;
+    position: absolute;
+    box-shadow: 10px 8px 10px rgba(10,1,0,0.2);
+    background-color: #fff;
+
+}
+
+#drop-down-two:hover .company-dropdown{
+    display: block;
+}
+
+
+
+
+.company-dropdown ul{
+
+    color: #1f1f1f;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: "poppins";
+    font-weight: 500;
+}
+
+
+.company-dropdown ul:hover{
+    background-color: #cac6c6;
+}
+
+.banner1{
+    text-align: center;
+    font-size: 35px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #1d3a85;
+    margin-top: 65px;
+    animation-name: banner1;
+    animation-duration: 8s;
+    
+}
+
+@keyframes banner1{
+    from {color: #e9f7f7;}
+    to {color: #233C7B;}
+}
+
+
+
+.flat-line{
+    margin-top: -30px;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.description span{
+    color: #143e86;
+    font-weight: 800;
+    /* font-size: 25px; */
+
+}
+
+.banner2 h3{
+    text-align: center;
+    padding-bottom: 150px;
+    
+}
+
+.banner2{
+    margin-top: 250px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    background-color: #EEF0F5;
+
+}
+
+.banner2 h3{
+    font-size: 50px;
+    color: #143e86;
+    font-family: 'poppins';
+    
+}
+
+.container-logo{
+    text-align: center;
+
+}
+
+.company-logos {
+    margin-right: 55px;
+    width: 300px;
+}
+
+.banner3 h3{
+    font-size: 50px;
+    color: #143e86;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'poppins';
+    
+}
+
+.banner3{
+    margin-top: 100px;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 25px;
+    
+    
+}
+
+
+
+.card1, .card2, .card3, .card4 {
+    width: 25%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.cards h3{
+    color: #1f1f1f;
+    margin-top: 5%;
+}
+
+.cards p{
+    color: grey;
+}
+
+.cards h6{
+    padding: 4%;
+
+}
+
+.cards p{
+    padding-bottom: 5%;
+}
+
+.card-social{
+    margin-top: 5%;
+}
+
+.card1, .card2, .card3, .card4{
+    box-shadow: 10px 10px 10px rgb(216, 219, 219);
+}
+
+.card-img{
+    border-radius: 100px;
+}
+
+.card-social, .card-img:hover {
+    cursor: pointer;
+}
+
+.learn-more{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 40px;
+    font-family: "poppins";
+    color: #224B91;
+}
+
+.learn-buttons{
+    margin-top: 5%;
+    padding: 10px 55px;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    border-color: #224B91;
+}
+
+.learn-buttons:hover{
+    background-color: #224B91;
+    color: #fff;
+}
+
+.live-program{
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.live-program p{
+    margin-top: 15px;
+    font-size: 20px;
+    color: #0e0c0c8a;
+}
+
+.banner-courses{
+    margin-top: 5%;
+    margin-left: 15% ;
+    margin-right: 15%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.banner-courses h4{
+    padding: 10px;
+    font-size: 15px;
+    width: 200px;
+    text-align: start;
+ padding-left: 20px;
+}
+
+.banner-courses p{
+    font-size: 15px;
+    text-align: start;
+    padding: 20px;
+    
+}
+
+
+
+.banner-courses span {
+    font-size: 20px;
+    color: #1f1f1f;
+    
+}
+
+.course{
+    width: 400px;
+    box-shadow: 0px 2px 10px #1f1f1f;
+    border-radius: 20px;
+}
+
+.course:hover{
+    cursor: pointer;
+}
+
+.course-banner{
+    margin-top: 50px;
+    border: 2px solid #1f1f1f;
+}
+
+
+
+.banner4 h3{
+    text-align: center;
+    padding-bottom: 150px;
+    
+}
+
+.banner4{
+    margin-top: 250px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+    background-color: #EEF0F5;
+
+}
+
+.banner4 h3{
+    font-size: 50px;
+    color: #143e86;
+    font-family: 'poppins';
+    
+}
+
+.hackathon-logo{
+    text-align: center;
+    margin-right: 10px;
+
+
+}
+
+.hackathon-logos{
+    margin-right: 10px;
+    width: 300px;
+}
+
+.banner4 h3{
+    font-size: 50px;
+    color: #143e86;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'poppins';
+    
+}
+
+.banner4{
+    margin-top: 300px;
+}
+
+.banner5{
+    margin-top: 150px;
+    text-align: center;
+    font-family: "poppins";
+
+}
+
+.banner5 h4{
+    font-size: 60px;
+    color: #143E86;  
+    padding-bottom: 50px;  
+}
+
+.banner5 h3{
+    color: #143E86;
+    font-size: 30px;
+}
+
+.products1{
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    width: 1000px;
+    margin-left: 500px;
+    
+}
+
+.products2{
+    display: flex;
+    flex: 2;
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 1000px;
+}
+
+.our-products{
+    margin-right: 150px;
+}
+
+.banner5 p{
+    margin-top: 25px;
+    color: grey
+}
+
+.banner5 h3,img:hover{
+    cursor: pointer;
+    
+}
+
+.banner6{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.banner6 h3{
+    font-size: 60px;
+    padding-bottom: 80px;
+    color: #143E86;
+
+}
+
+.partner-institutions{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 150px;
+
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgb(233, 230, 230);
+}
+
+body::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 60px rgba(255, 175, 2, 0.74);
+}
+
+.footer{
+    background-color: #233C7B;
+    height: 50vh;
+
+}
+
+.footer-section{
+    margin-left: 150px;
+}
+
+.row1{
+    display: flex;
+    gap: 80px;
+}
+
+.footer-logo{
+    margin-top: 50px;
+}
+
+
+.row2{
+    color: #fff;
+    margin-top: -55px;
+
+}
+
+.row2 span{
+    font-size: 30px;
+}
+
+.address{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.row2 h5{
+    padding-top: 50px;
+    font-size: 15px;
+    width: 450px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+.col2 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.list{
+   font-size: 20px; 
+   margin-top: 40px;
+   list-style-type: none;
+   
+}
+
+.list li {
+    margin-bottom: 15px;
+}
+
+.list li:hover{
+    cursor: pointer;
+}
+
+.col2:hover{
+    cursor: pointer;
+}
+
+.col3 {
+    margin-top: 50px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.list{
+   font-size: 20px; 
+   margin-top: 40px;
+   list-style-type: none;
+   
+}
+
+.list li {
+    margin-bottom: 15px;
+}
+
+.list li:hover{
+    cursor: pointer;
+}
+
+.col3:hover{
+    cursor: pointer;
+}
+
+.row2 img{
+    padding-top: 30px;
+}
